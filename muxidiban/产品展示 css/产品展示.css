@@ -1,0 +1,19 @@
+
+.product{
+    width: 60%;
+	margin-bottom: 50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.product .nav{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.tab-content .row>div{
+    position: relative;
+	padding:10px;
+	box-sizing: border-box;
+}
+.tab-content .row img{
+	width: 100%;
+}

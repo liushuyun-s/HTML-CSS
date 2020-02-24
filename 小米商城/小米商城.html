@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="小米商城.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="left">
+            <img src="images/mi-logo.png" alt="">
+        </div>
+        <ul>
+            <li>小米商城</li>
+            <li>让每个人都能享受科技的乐趣</li>
+        </ul>
+    </div>
+    <div class="container">
+        <img src="images/banner.png" alt="">
+        <div class="container-table">
+            <ul class="load">
+                <li class="active"><a>账号登录</a><span>|</span></li>
+                <li><a>扫码登录</a></li>
+            </ul>
+            <div class="content">
+                <div class="account">
+                    <form>
+                        <p><input type="text" placeholder="邮箱/手机号码/小米账号"></p>
+                        <p><input type="text" placeholder="密码"></p>
+                        <p><input type="submit" value="立即登录"></p>
+                    </form>
+                </div>
+                <div class="saoma">
+                    <img src="images/erweima.png" alt="">
+                </div>
+            </div>
+            <ul class="help">
+                <li><a href="#">注册小米账号</a></li>
+                <li>|</li>
+                <li><a href="#">忘记密码？</a></li>
+            </ul>
+            <fieldset>
+                <legend>其他方式登录</legend>
+            </fieldset>
+            <div class="all-icons">
+                <a href="#"><span class="qq"></span></a>
+                <a href="#"><span class="weibo"></span></a>
+                <a href="#"><span class="pay"></span></a>
+                <a href="#"><span class="wechat"></span></a>
+            </div>
+        </div>
+            <script>
+                $(".load li").click(function(){
+                    $(this).addClass("active").siblings().removeClass("active")
+                    //$(".content>div").eq($(this).index()).show(300).siblings().hide()
+                    if($(this).index()==1){
+                        $(".account").hide();
+                        $(".saoma").show();
+                    }else{
+                        $(".account").show();
+                        $(".saoma").hide();
+                    }
+                })
+            </script>
+    </div>
+    <div class="bottom"></div>
+</body>
+</html>

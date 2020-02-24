@@ -1,0 +1,126 @@
+
+.Joinus_banner{
+	margin-bottom: 24px;
+}
+.Joinus_banner img{
+    width: 100%;
+
+}
+.Join{
+    width: 100%;
+	margin-bottom: 50px;
+	margin-left:auto;
+    margin-right:auto;
+    position: relative;
+}
+.mx_width{
+	padding-left: 10%;
+	padding-right: 10%;
+	box-sizing: border-box;
+}
+.Join .Joinus_title{
+	height: 42px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #2dae36;
+}
+.Join .Joinus_title .Joinus_text{
+	width: 120px;
+	color:white;
+	font-size: 20px;
+	line-height: 42px;
+	text-align: center;
+	background: #2dae36;
+	border-radius:16px 0 16px 0;
+}
+.Join .Joinus_condition{
+	background: #F9F9F9;
+	padding: 30px 0;
+	box-sizing: border-box;
+}
+.container-fluid{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container-fluid::before{
+	content: "";
+	display: table;
+}
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.row::bofore{
+	content: "";
+	display: table;
+}
+.Join .Joinus_list .Joinus_part{
+	padding: 20px;
+	box-sizing: border-box;
+}
+.clearfix::bofore{
+	content: "";
+	display: table;
+}
+.Join .Joinus_list .Joinus_part>div{
+	float:left;
+}
+.Join .Joinus_list .Joinus_part img{
+	vertical-align: middle;
+	border: 0;
+}
+.Join .Joinus_list .Joinus_part .Joinus_part_title{
+	font-size: 30px;
+	color: #333;
+	line-height: 1.6em;
+	padding-top: 12px;
+}
+.Join .Joinus_list .Joinus_part .Joinus_part_smtitle{
+	font-size: 18px;
+	color: #2dae36;
+}
+div::after{
+	content: "";
+	display: table;
+}
+.Join .Joinus_condition .condition_mes{
+	font-size: 14px;
+	color: #333;
+	line-height: 1.6em;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.Join .Joinus_process{
+	padding: 30px 0;
+	box-sizing: border-box;
+	border-top: 1px dotted #2dae36;
+	border-bottom: 1px dotted #2dae36;
+}
+.Join .Joinus_policy{
+	padding: 30px 0;
+	box-sizing: border-box;
+	background: #F9F9F9;
+}
+.Join .Joinus_policy .policy_mes{
+	color: #666;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+.Join .Joinus_policy .policy_mes .policy_mes_title{
+	color: #2dae36;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 2em;
+}
+.Join .Joinus_policy .policy_mes .policy_mes_text{
+	text-indent: 2em;
+}
+.Join .Joinus_policy .policy_mes .policy_mes_item{
+	text-indent: 2em;
+}
+@media (min-width:992px){
+    .col-md-6{
+        width:50%;
+    }
+}

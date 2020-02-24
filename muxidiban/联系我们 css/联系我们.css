@@ -1,0 +1,86 @@
+
+.contact_banner{
+	margin-bottom: 24px;
+}
+.contact_banner img{
+	width: 100%;
+}
+.mx_width{
+	padding-left: 10%;
+	padding-right: 10%;
+	box-sizing: border-box;
+}
+.contactus .contactus_title{
+	height: 42px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #2dae36;
+}
+.contactus .contactus_title .contactus_text{
+	width: 120px;
+	color:white;
+	font-size: 20px;
+	line-height: 42px;
+	text-align: center;
+	background: #2dae36;
+	border-radius:16px 0 16px 0;
+}
+.contactus .contactus_content{
+	padding: 50px 0;
+}
+.contactus .contactus_content .border_right{
+	padding-top: 40px;
+	padding-bottom: 20px;
+	border-right: 1px solid #2dae36;
+}
+.contactus .contactus_content .bigger{
+	font-size: 30px;
+	text-align: right;
+	padding-right: 56px;
+	box-sizing: border-box;
+}
+.contactus .contactus_content .bigger>span{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	border: 1px solid #2dae36;
+}
+.contactus .contactus_content span{
+	border-radius: 50%;
+	position: relative;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.contactus .contactus_content .iconfont{
+	color: #2dae36;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+p{
+	margin: 0 0 10px;
+}
+.contactus .contactus_content span{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #2dae36;
+	border-radius: 50%;
+	position: relative;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.contactus_position{
+	border-top: 1px solid #2dae36;
+	border-bottom: 1px solid #2dae36;
+}
+.contactus_position img{
+	width: 100%;
+}
+@media (min-width:992px){
+    .col-md-6{
+        width:50%;
+		float: left;
+    }
+}

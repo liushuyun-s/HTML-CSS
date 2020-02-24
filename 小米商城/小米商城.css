@@ -1,0 +1,193 @@
+*{margin: 0;padding: 0;}
+.nav{
+    width:100%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.left{
+    width: 33px;
+    height: 34px;
+    margin-left: 283px;
+    margin-top: 17px;
+    background: #F56600;
+    position: absolute;
+    text-align: center;
+}
+.left img{
+    width:31px;
+    height:32px;
+}
+.nav ul::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.nav ul{
+    margin-left:330px;
+    list-style: none;
+    margin-top: 13px; 
+    position: absolute;
+}
+.nav li:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav li:last-child{
+    font-size: 10px;
+}
+.container{
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+    height:410px;
+    position: relative;
+}
+.container img{
+    margin-top: 8px;
+    width:100%;
+    height: 410px;
+}
+.container-table{
+    text-align: center;
+    width:279px;
+    height: 366px;
+    top: 28px;
+    left: 800px;
+    border: 1px solid #333;
+    background: #ffffff;
+    position: absolute;
+}
+
+.account input{
+    width:234px;
+    height:35px;
+    margin-top: 20px;
+    outline: none;
+}
+.account p:nth-child(1) input{
+    margin-top: 8px;
+}
+.account p:nth-child(2) input{
+    margin-top: 8px;
+}
+.account p:nth-child(3) input{
+    background: #F56600;
+    border: 2px solid #F56600;
+    margin-top:16px; 
+}
+.load{
+    height:40px;
+    line-height:40px;
+    margin-top:5px;
+}
+.load li{
+    font-size: 16px;
+    margin-left: 20px;
+    height: 20px;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+.active{
+    color: orange;
+}
+.load li:hover{
+    cursor: pointer;
+}
+.load span{
+    margin-left: 20px;
+    color:gray;
+}
+.content{
+    position: relative;
+    height:154px;
+}
+/* .content>div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0; 
+    top: 0; 
+} */
+.saoma{
+    display: none;
+}
+.saoma img{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+.help li{
+    font-size: 10px;
+    list-style: none;
+    display: inline-block;
+}
+.help li a{
+    text-decoration: none;
+    color: #000;
+}
+fieldset{
+    width: 235px;
+    font-size: 12px;
+    color: #999;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:77px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.all-icons{
+    text-align: center;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top:8px;
+    width: 279px;
+    height: 50px;
+}
+.all-icons a{
+    position: relative;
+    display: inline-block;
+    width:23px;
+    height:23px;
+    background: #333;
+    border-radius: 50%;
+}
+.all-icons span{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    /* transform:translate(-50%,-50%); */
+    background: url('images/icons_type.png');
+}
+.all-icons .qq{
+    width: 18px;
+    height: 18px;
+    background-position-x: -19px;
+}
+.all-icons .weibo{
+    width: 18px;
+    height: 18px;
+    background-position-x: -38px;
+}
+.all-icons .pay{
+    width: 18px;
+    height: 18px;
+    background-position-x: -57px;
+}
+.all-icons .wechat{
+    width: 16px;
+    height: 16px;
+    background-position-x: -84px;
+}
+.all-icons a{
+    margin-left: 20px;
+}
+.all-icons a:nth-child(1){
+    margin-left:0px;
+}

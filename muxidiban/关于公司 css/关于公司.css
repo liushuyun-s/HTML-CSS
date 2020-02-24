@@ -1,0 +1,90 @@
+
+.mx_width{
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+.about_banner{
+	margin-bottom: 20px;
+}
+.about_banner img{
+	width: 100%;
+}
+.aboutuspart .aboutus_title{
+    height: 42px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(45,174,54);
+}
+.aboutuspart .aboutus_title .aboutus_text{
+	width: 120px;
+	color: white;
+	font-size: 20px;
+	line-height: 42px;
+	text-align: center;
+	background: #2dae36;
+	border-radius: 16px 0 16px 0;
+}
+.aboutuspart .aboutus_content{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.container-fluid{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container-fluid::before{
+	content: "";
+	display: table;
+}
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.row::before{
+	content: "";
+	display: table;
+	clear: both;
+}
+.aboutus_content .col-md-6{
+	margin-bottom: 20px;
+}
+.aboutus_content.text_center{
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+}
+.aboutus_content.text_center.mx_position{
+	height: 400px;
+	float: left;
+	z-index: 0;
+	background-color: rgb(243,241,236);
+	color: rgb(0,0,0);
+	text-align: left;
+}
+.aboutus_content p{
+	color: #666;
+	line-height: 1.6em;
+	text-indent: 2em;
+	margin-bottom: 20px;
+}
+p{
+	margin: 0 0 10px;
+}
+.aboutuspart .aboutus_content .tips{
+	color: #2dae36;
+}
+@media (min-width:992px){
+    .col-md-6{
+        width:50%;
+		float: left;
+    }
+}
+.row text-center::after{
+    content:"";
+    display: table;
+    box-sizing: border-box;
+}
